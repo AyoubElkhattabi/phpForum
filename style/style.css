@@ -1,0 +1,362 @@
+
+
+@font-face {
+    font-family: 'nova1' ;
+    src: url('font/Proxima Nova Alt Bold.otf') ;
+ }
+ @font-face {
+    font-family: 'nova2' ;
+    src: url('font/Proxima Nova Alt Light.otf') ;
+ }
+ @font-face {
+    font-family: 'nova3' ;
+    src: url('font/Proxima Nova Alt Thin.otf') ;
+ }
+ @font-face {
+    font-family: 'nova4' ;
+    src: url('font/Proxima Nova Black.otf') ;
+ }
+ @font-face {
+    font-family: 'nova5' ;
+    src: url('font/Proxima Nova Bold.otf') ;
+ }
+ @font-face {
+    font-family: 'nova6' ;
+    src: url('font/Proxima Nova Extrabold.otf') ;
+ }
+ @font-face {
+    font-family: 'nova7' ;
+    src: url('font/Proxima Nova Thin.otf') ;
+ }
+ @font-face {
+    font-family: 'nova8' ;
+    src: url('font/ProximaNova-Regular.otf') ;
+ }
+
+ body{font-family:nova1; }
+
+ .all-header{background-image: url('../img/background.png');}
+
+ /* top header*/
+ *{padding: 0; margin: 0;}
+ .row{margin:0; padding:0}
+ul{list-style: none;}
+ nav{background: rgba(8,63,102,0.6);}
+.top-navbar{padding:0}
+.top-nav-icon  {margin:0px;}
+.top-nav-icon li a{color:white; font-size:25px; display:block;width:30px; text-align: center;}
+.top-nav-icon li :hover{background: #007bff;}
+.nav-link{color:#41B8F3;}
+.nav-link svg{margin-right: 4px;}
+.navbar-light .navbar-nav .nav-link {
+   color:#41b8f3;
+}
+
+/*header*/
+header{height:200px;border-bottom: 1px solid #41b8f3;}
+.logo{display: block;font-size: 95px;color:white;margin: auto;}
+.log{ height: 100%; position: relative;}
+.log-button{width: 100%;height: 45px;position: absolute;bottom: 0;right: 0; display: flex; align-items: center; justify-content: right;}
+a.login-btn,a.signup-btn{ display:block;  background-color: #0E4973; color:white;padding: 10px;width: 140px; border-bottom: 3px solid#41b8f3;border-radius: 15px 15px 0 0; text-decoration: none;transition: all 800ms ease;}
+a.login-btn:hover,a.signup-btn:hover{background-color: #113951; transition: all 800ms ease;}
+.signup-btn{margin-left: 5px;}
+.fa-user,.fa-user-plus{color:#37A9E3}
+
+
+/*content*/
+.content{background-color: white;  padding-top: 7px;}
+
+/* message admin index*/
+.index-message{padding:10px 5px; color:white; background-color: #C0392B; border-radius: 5px; text-align: center; margin-bottom: 15px;}
+
+/*categorie*/
+.categorie-container{ border: 1px solid #d6e4ec !important; border-bottom: 4px solid #d6e4ec !important; margin: 15px 0;}
+.categorie{position:relative;min-height: 45px; line-height: 45px; background-image: url('../img/background.png'); color:white; font-size: 16px; padding-left: 8px; margin: 5px 0;}
+.categorie h2{font-size: 19px; line-height: 45px;padding: 0;margin: 0;}
+.collapsingbtn{background-color:#41b8f3; position: absolute; right:0; width:45px; text-align: center; }
+.collapsingbtn .fa-minus,.categorie-title{color:white;}
+a.categorie-title:hover{color:white;}
+
+/*forum*/
+.forums{  padding:10px 0;}
+.forum{border-bottom: 1px solid#d6e4ec;padding: 19px 0px;}
+.forum-main div h2{font-size: 17px;}
+.forum-main div h3{font-family: nova2; font-size: 14px;}
+.static-box{ display: inline-block;width: 50px;background-color:#E2EBF1;text-align: center;border-radius: 7px;padding: 7px 0px;margin: 3px;}
+.static-box i{display: block; margin:auto;}
+.static-box .fa-file-alt ,.static-box .fa-comment {font-size: 20px; color:#37A9E3}
+.static-box div {font-family: nova2;font-size: 14px;}
+.forum-stats,.forum-logo{text-align: center;}
+.forum-main div h2 a{color:#37A9E3;}
+.forum-logo {display:block;}
+
+.last-post-img{flex: 0 0 20%;}
+.last-post-img img{border-radius: 50px;border: 3px solid#007bff;}
+.fa-file-alt , .fa-user , .fa-clock{color:#185ca4}
+
+.small-title{font-size: 13px; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width: 310px;margin-left: 7px;}
+.date{color: #0087ff;}
+.by{color:#185ca4;}
+.by a{font-size:11px;}
+.title a{display:flex;};
+.title a i{margin: 0 7px 0 0;}
+.date span{font-size:13px;}
+
+
+
+/*login*/
+.login-form{margin:90px auto 20px auto}
+.user_card {
+ /*  height: 400px;*/
+   width: 550px;
+   margin-top: auto;
+   margin-bottom: auto;
+   background: #185886;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 5px;
+
+}
+.brand_logo_container {
+   position: absolute;
+   height: 170px;
+   width: 170px;
+   top: -75px;
+   border-radius: 50%;
+   background: #185886;
+   padding: 10px;
+   text-align: center;
+   border: 5px solid white;
+}
+.brand_logo {
+   height: 150px;
+   width: 150px;
+   font-size: 100px;
+   color:white;
+}
+.form_container {
+   margin-top: 100px;
+}
+.login_btn {
+   width: 100%;
+   background: #c0392b !important;
+   color: white !important;
+}
+.login_btn:focus {
+   box-shadow: none !important;
+   outline: 0px !important;
+}
+.login_container {
+   padding: 0 2rem;
+}
+.input-group-text {
+   background: #c0392b !important;
+   color: white !important;
+   border: 0 !important;
+   border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+   box-shadow: none !important;
+   outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+   background-color: #c0392b !important;
+}
+
+.input-group-text .fa-user{color:white}
+
+
+
+/*sign up */
+.brand_logo_container .fa-user-plus{font-size: 80px; text-align: center;}
+
+
+/*footer*/
+footer{height:90px; border-top: 8px solid #0a3d62;  border-bottom: 8px solid #0a3d62; background: #268fc5; background-image: url('../img/background.png');}
+footer h4{font-family: nova2; color:#75c7de; font-size: 15px;text-align: center;}
+
+
+/*page forum*/
+.forum-page{ border-top:5px solid #d6e4ec ; border-left:2px solid #d6e4ec ; border-right:2px solid #d6e4ec ; border-bottom:5px solid #d6e4ec ; margin :5px 0 20px 0}
+.title-forum{color:#37A9E3;font-size: 21px;margin-left: 19px;}
+.discription{font-family: nova2;padding:8px 10px; background-color: #F3F8FB; font-size: 14px; color:#37A9E3; border-radius: 7px; width:95%; margin:auto;border: 1px solid #dff1fb; margin-bottom: 20px; }
+.forum-main-forum{/*width:95%;*/ margin:auto; border: 2px solid #ddd; margin-bottom: 15px;}
+.fixed-topics,.topics{}
+.scStickyThreads {color: #ffffff;background:#37a9e3;padding: 8px 12px;}
+.topics{background-color: white;}
+
+/* unread msg*/
+.unreadmsg{background-color: red;border-radius: 100px;font-size: 12px;position: absolute;bottom: 0;width: 16px;margin: 20px;}
+
+/*
+th, td {
+   border-bottom: 1px solid #ddd;
+ }
+
+ table{width:100%}
+table .forum-image{width:72px;}
+table .forum-title{width:50%}
+table .forum-info{width:23%}
+table .forumlastcomment{width:20}
+
+
+.forum-image img{width:50px; height:50px; border-radius: 100px; text-align: right;display:block; margin-left: 8px;}
+.forum-title h4{font-size: 15px; margin: 0;}
+.username--staff,.at{color:#37A9E3; font-family: nova2; font-size:12px;}
+.at{color:black;margin-left: 8px;display: inline-block;}
+.numx{color:black;}
+.forum-info{font-family: nova2;font-size: 14px; color:#37A9E3; font-weight: bold;}
+.lastcommentimg{display:block; width:30px; height:30px; border-radius: 100px; float: left;margin-top: 7px;}
+.lastcommentinfo{padding-left: 43px;}
+.lastcommentinfo .at{display:block}
+.onepost td{padding: 15px 0px;}
+.forum-topic-fixed{background:#D9EFFF;}
+*/
+.forumpage{margin-bottom:15px;}
+
+.pagination {background-color: #fff;}
+.onepost{padding: 10px 0px;}
+.image-post-user{margin-right: 15px;}
+.image-post-user img{width:50px; height:50px; border-radius: 100px; text-align: right;display:block; margin-left: 8px;}
+.postinfo{padding:0; margin:0}
+.post-info h4 {
+   font-size: 15px;
+   margin: 0;
+}
+.username--staff,.at,.numx{ font-family: nova2; font-size:12px;}
+.at{color:black;margin-left: 8px;display: inline-block;}
+.post-info .title-frm{margin-bottom: 3px;display: block;margin-top: 3px;}
+.numx{ font-size: 13px; font-weight: bold; background-color: #eee;border-radius: 7px;margin: 5px;}
+.static-num{color:black;}
+.lastcommentimg{display:block; width:30px; height:30px; border-radius: 100px; float: left;margin-top: 7px;}
+.lastcommentinfo{padding-left: 43px;}
+.lastcommentinfo .at{display:block}
+.poststatistics{text-align: center;}
+.forum-topic-fixed{background:#D9EFFF;}
+
+
+
+/*post*/
+
+.main-post{border:solid 1px #D6E4EC; border-radius: 7px;     border-bottom: solid 5px #d6e4ec; border-top:solid 5px #d6e4ec }
+.author-info {text-align:center;}
+.post-img-author img{width:100px; height:100px; display:block; margin:auto;border: 2px solid #d6e4ec;border-radius: 70px;}
+.username-author{color: #185886;font-size: 14px;}
+.m-title,.more-info{color:#6777c0;background-color:#edf6fd;font-size: 12px;font-family: nova2;width: 95%;margin: auto;border: 1px solid #bcdef5;padding: 3px;border-radius: 5px;}
+.m-title{margin: 11px auto;}
+.more-info{text-align: left; margin:3px auto; display: flex; justify-content: space-between; padding:4px 5px;}
+.author-info .fa-calendar,.fa-clipboard,.fa-comment,.fa-map-marker-alt,.fa-user{margin:0 7px 0 0}
+.post-img-author{padding-top:10px;}
+.author-info{background-color: #F3F8FB;border-right: 1px solid #d6e4ec;}
+.xbt{color:black;}
+.headtotle{font-size: 25px; color:#37A9E3}
+.dateofpost{font-size: 14px;font-family: nova2; display:inline-block; margin:7px}
+.post-date hr{margin-top:0}
+.breadcrumbs{padding: 10px;margin: 20px 0;border: 1px solid #D3E2EB;border-radius: 15px;font-size: 16px;font-family: nova2;}
+
+.add-comment{padding:15px;}
+.commenter-button{margin:10px; width:150px;}
+a.barusername{margin-right: 2px;height: 43px;display: block;background-color: #0E4973;color: white;padding: 7px;width: 220px;border-bottom: 3px solid #41b8f3;border-radius: 5px 5px 0 0;text-decoration: none;transition: all 800ms ease;}
+a.bar-msg{width: 50px; text-align: center;font-size: 23px; }
+/*after login bar menu*/
+
+.barimg{width:30px; height: 30px; border-radius: 100px; border:2px solid white;}
+
+/*editProfile*/
+.editprofile{width:80%; margin: auto; text-align: right; border: 2px solid #41b8f3; border-radius: 7px; padding:10px; margin-bottom: 5px;}
+.labeln{line-height: 37px; font-size: 16px;}
+.editsexe{line-height: 37px;text-align: left;}
+.editprofilerow{margin:10px 0}
+
+/*PROFILE*/
+.profile-right-box{border-right:1px solid #185886;  margin:10px 0; }
+.profile-left-box{border-left:1px solid #185886;  margin:10px 0; }
+
+.profile-headline{
+   background-color:#185886; padding:10px; margin:11px; border-radius: 7px; color:white; text-align: center;
+}
+.imgprofile{display: block; margin:auto; width:100px; height:100px; border-radius: 100px;}
+.rowl{font-size: 13px;}
+.pst{margin:10px 0;}
+.pfl{border:1px solid #185886; margin:10px 0; border-radius: 7px;}
+
+/*new post*/
+.frm-ctr{display: inline; width:500px;}
+.title-new-post{font-size: 33px;}
+.title-new-tt{font-size: 12px;}
+
+
+.signuperror{flex-basis: 100%; color:white; font-size: 13px; }
+.signupform{width:50%}
+
+.img-xd{width:54px; height:54px;}
+.post-img-author-x{width:100px; height:100px;}
+
+
+.onepost {border-bottom: 2px solid #eee;}
+
+/*add update delete insert btn */
+.crud a {padding: 6px;border: 2px solid #37a9e3;border-radius: 6px; margin :0 5px;}
+
+
+/*bread crumb*/
+.breadcrumb{background-color: #f3f8fb; border-radius: 8px;border: 1px solid #41b8f3;}
+.bread_crumb{border-radius: 7px;}
+.bread_crumb nav {background-color:#fff;}
+
+
+/*table*/
+table, th, td {
+   border: 1px solid white;
+ }
+ th, td {
+   padding: 5px;
+   text-align: left;    
+ }
+
+ .table th{text-align:center;}
+ .table thead{background-color: #41B8F3;}
+/*box message for message.php*/
+.box-message{width:60%; padding:10px; background-color: #ddd; border-radius: 6px; margin-bottom:70px;}
+
+/*button edite hide delete fix */
+.smallbtnfortopics{background: none;border: none;}
+.bbt{display: inline-block;width: 20px;}
+
+/*admin select and input controls */
+
+.adminselectcontrol {width:200px;}
+.admininputscontrol{width:400px; display:inline-block; margin:3px;}
+
+/*add new user to hidden topic input*/
+.input-group-texttt{background: #cccccc !important; color: black !important;}
+
+
+/* bootstrap table */
+.table td{vertical-align:middle; padding:5px 0;text-align: center;}
+/* very Small devices (landscape phones, 200px and up)*/
+@media (min-width: 200px) { 
+   .nav-link{margin-left:15px;}
+   .log-button{justify-content: center;}
+   a.login-btn{width:172px}
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+   .log-button{justify-content: flex-end;}
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+   .nav-link{margin-left:0px;}
+ }
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }

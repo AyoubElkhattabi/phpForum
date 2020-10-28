@@ -1,0 +1,21 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{font-family: sans-serif;}
+nav{background:#222; padding:5px 20px;}
+ ul{list-style: none;}
+ a{color:white; text-decoration: none; display: block;}
+ a:hover{text-decoration: none;}
+ li{font-size: 17px; padding:15px 5px}
+ .logo{font-size: 30px;}
+
+ /*mobile menu */
+ ul{display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
+ .bars{
+    color:white;
+    font-size: 35px;
+    }
+    .toggle{cursor: pointer;}
+
+    .toggle{order:1;}
+    
+    .item{order:2; width:100%; display:none;}
+    .item.active{ display: block;}
